@@ -15,6 +15,7 @@
 		4C45C73B1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45C73A1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift */; };
 		4C45C7461E59201F00F87DBF /* SimulatorStatusMagic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */; };
 		4C45C7481E59207B00F87DBF /* SimulatorStatusMagic.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C45C7501E592EC500F87DBF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45C74E1E592EC500F87DBF /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4C45C73A1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorStatusMagicExampleUITests.swift; sourceTree = "<group>"; };
 		4C45C73C1E58F53700F87DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SimulatorStatusMagic.framework; sourceTree = "<group>"; };
+		4C45C74E1E592EC500F87DBF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		4C45C7391E58F53700F87DBF /* SimulatorStatusMagicExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				4C45C74E1E592EC500F87DBF /* SnapshotHelper.swift */,
 				4C45C73A1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift */,
 				4C45C73C1E58F53700F87DBF /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C45C73B1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift in Sources */,
+				4C45C7501E592EC500F87DBF /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +367,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = SimulatorStatusMagicExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charland.SimulatorStatusMagicExample;
@@ -397,8 +402,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"SNAPSHOT=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = SimulatorStatusMagicExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)";
+				OTHER_SWIFT_FLAGS = "-DSNAPSHOT=1";
 				PRODUCT_BUNDLE_IDENTIFIER = charland.SimulatorStatusMagicExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

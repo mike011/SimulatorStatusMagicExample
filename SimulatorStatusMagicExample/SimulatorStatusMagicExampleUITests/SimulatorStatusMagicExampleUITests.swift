@@ -16,11 +16,15 @@ class SimulatorStatusMagicExampleUITests: XCTestCase {
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         SDStatusBarManager.sharedInstance().enableOverrides()
+
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
+
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
@@ -34,6 +38,7 @@ class SimulatorStatusMagicExampleUITests: XCTestCase {
         XCTAssertTrue(true)
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        snapshot("time set")
     }
     
 }
