@@ -8,33 +8,9 @@
 		<data>
 		KS37h2CWwwQ6x610d3+jk4Y+h90=
 		</data>
-		<key>Headers/SDStatusBarOverrider.h</key>
-		<data>
-		Mhwg0D7i4AyNlaeQ1iC1Xb2JZ1E=
-		</data>
-		<key>Headers/SDStatusBarOverriderPost8_3.h</key>
-		<data>
-		lsbaYK6qi8twnMPSxwyXJ0jBwjI=
-		</data>
-		<key>Headers/SDStatusBarOverriderPost9_0.h</key>
-		<data>
-		wLAbOekCuI1NiRR1a9hzKio2Uc8=
-		</data>
-		<key>Headers/SDStatusBarOverriderPre8_3.h</key>
-		<data>
-		NXDzgNF+US9jj9mGyvWUQWFeDN4=
-		</data>
-		<key>Headers/SimulatorStatusMagic-umbrella.h</key>
-		<data>
-		XAP2ph8yrNxWFjGoPFij644HpV8=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		AR5oHBIhAoqGSsDWq20miabP/FA=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		47Aw9D8eBoTI+jJ9AJhaL5KPgqI=
+		tVvNr4qt4j8IixLUfAqO4Xj/cYc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -48,72 +24,6 @@
 			<key>hash2</key>
 			<data>
 			+6WuTDR8ga5zfbPCI7m/w5NmU7kvOr6JKSZSMVjuX5Q=
-			</data>
-		</dict>
-		<key>Headers/SDStatusBarOverrider.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mhwg0D7i4AyNlaeQ1iC1Xb2JZ1E=
-			</data>
-			<key>hash2</key>
-			<data>
-			APyEHtgNzXMyDVLlfaoH7EaqDx/CRtAOJK+J1kclMcE=
-			</data>
-		</dict>
-		<key>Headers/SDStatusBarOverriderPost8_3.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lsbaYK6qi8twnMPSxwyXJ0jBwjI=
-			</data>
-			<key>hash2</key>
-			<data>
-			J9ed1bNCQhnECFL4BMSAiz3mxer/GcK2AprH0hh2Mt4=
-			</data>
-		</dict>
-		<key>Headers/SDStatusBarOverriderPost9_0.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wLAbOekCuI1NiRR1a9hzKio2Uc8=
-			</data>
-			<key>hash2</key>
-			<data>
-			xXHqTfShCNXQ4Nt0osfV4+3D98QeaVJvBPfo0gNQ2vk=
-			</data>
-		</dict>
-		<key>Headers/SDStatusBarOverriderPre8_3.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NXDzgNF+US9jj9mGyvWUQWFeDN4=
-			</data>
-			<key>hash2</key>
-			<data>
-			hS5yJSUVDmfIJId8s1rHcaMaSe5hY2luDAUyGBJUB8Q=
-			</data>
-		</dict>
-		<key>Headers/SimulatorStatusMagic-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XAP2ph8yrNxWFjGoPFij644HpV8=
-			</data>
-			<key>hash2</key>
-			<data>
-			33HtvAUWfcRE49rnuMtcIIRjJzlmNlkq+s1PBS/19EQ=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			47Aw9D8eBoTI+jJ9AJhaL5KPgqI=
-			</data>
-			<key>hash2</key>
-			<data>
-			1itAEfX4i04FIbGynWyZ1P0fAreUik++POM6vzzkXlk=
 			</data>
 		</dict>
 	</dict>
@@ -134,11 +44,6 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -184,11 +89,6 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

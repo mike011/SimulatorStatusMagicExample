@@ -13,9 +13,8 @@
 		4C45C72D1E58F53700F87DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C45C72C1E58F53700F87DBF /* Assets.xcassets */; };
 		4C45C7301E58F53700F87DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45C72E1E58F53700F87DBF /* LaunchScreen.storyboard */; };
 		4C45C73B1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45C73A1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift */; };
-		4C45C7461E59201F00F87DBF /* SimulatorStatusMagic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */; };
-		4C45C7481E59207B00F87DBF /* SimulatorStatusMagic.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C45C7501E592EC500F87DBF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45C74E1E592EC500F87DBF /* SnapshotHelper.swift */; };
+		4C7948AC1E5A1474008BE0A9 /* SimulatorStatusMagiciOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7948AB1E5A1474008BE0A9 /* SimulatorStatusMagiciOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				4C45C7481E59207B00F87DBF /* SimulatorStatusMagic.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +50,8 @@
 		4C45C7361E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorStatusMagicExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C45C73A1E58F53700F87DBF /* SimulatorStatusMagicExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorStatusMagicExampleUITests.swift; sourceTree = "<group>"; };
 		4C45C73C1E58F53700F87DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SimulatorStatusMagic.framework; sourceTree = "<group>"; };
 		4C45C74E1E592EC500F87DBF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		4C7948AB1E5A1474008BE0A9 /* SimulatorStatusMagiciOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SimulatorStatusMagiciOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C45C7461E59201F00F87DBF /* SimulatorStatusMagic.framework in Frameworks */,
+				4C7948AC1E5A1474008BE0A9 /* SimulatorStatusMagiciOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +79,7 @@
 				4C45C7241E58F53700F87DBF /* SimulatorStatusMagicExample */,
 				4C45C7391E58F53700F87DBF /* SimulatorStatusMagicExampleUITests */,
 				4C45C7231E58F53700F87DBF /* Products */,
-				4C45C7451E59201F00F87DBF /* SimulatorStatusMagic.framework */,
+				4C7948AB1E5A1474008BE0A9 /* SimulatorStatusMagiciOS.framework */,
 			);
 			sourceTree = "<group>";
 		};

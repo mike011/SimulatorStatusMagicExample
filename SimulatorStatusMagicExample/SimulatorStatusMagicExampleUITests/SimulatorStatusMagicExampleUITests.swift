@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import SimulatorStatusMagic
+import SimulatorStatusMagiciOS
 
 class SimulatorStatusMagicExampleUITests: XCTestCase {
         
@@ -16,7 +16,6 @@ class SimulatorStatusMagicExampleUITests: XCTestCase {
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         SDStatusBarManager.sharedInstance().enableOverrides()
-
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
